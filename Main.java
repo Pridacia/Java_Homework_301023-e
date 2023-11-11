@@ -1,29 +1,25 @@
 public class Main {
     public static void main(String[] args) {
 
-        //Описание задания.
-        // 1 уровень сложности: 1. В методе main инициализировать все примитивные типы и вывести их результат в консоль:
-        //char: G
-        //int: 89
-        //byte: 4
-        //short: 56
-        //float: 4.7333436
-        //double: 4.355453532
-        //long: 12121
-        byte a = 4;
-        short b = 56;
-        int c = 89;
-        long d = 12121;
-        char e = 'G';
-        float f = 4.7333436f;
-        double g = 4.355453532;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(g);
+        // Дано трехзначное число. Вывести на экран все цифры этого числа
+        //Пример: 345
+        //Вывод в консоль: Число 345 -> 3, 4, 5
+        //Другой пример: 987
+        //Вывод в консоль: Число 987 -> 9, 8, 7
+
+        int main = 345;
+        int i = main/100; //3
+        int i1 = (main/10)%10; //4
+        int i2 = main%10;//5
+        System.out.println(i+", "+i1+", "+i2);
+
+
+        int main1 = 987;
+        int a = main1/100; //3
+        int a1 = (main1/10)%10; //4
+        int a2 = main1%10;//5
+        System.out.println(a+", "+a1+", "+a2);
+
 
     }
 }
