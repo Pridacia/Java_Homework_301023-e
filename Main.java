@@ -15,9 +15,9 @@ public class Main {
 
 
         int main1 = 987;
-        int a = main1/100; //3
-        int a1 = (main1/10)%10; //4
-        int a2 = main1%10;//5
+        int a = main1/100; //9
+        int a1 = (main1/10)%10; //8
+        int a2 = main1%10;//7
         System.out.println(a+", "+a1+", "+a2);
 
 
